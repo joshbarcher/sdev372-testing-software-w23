@@ -4,7 +4,7 @@ import org.junit.jupiter.api.RepeatedTest;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class PowerBallTests
+public class PowerBallTest
 {
     @RepeatedTest(10)
     public void rangeTest()

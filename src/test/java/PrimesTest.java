@@ -1,6 +1,4 @@
 import org.example.primes.PrimalityChecker;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
@@ -8,7 +6,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class PrimesTests
+public class PrimesTest
 {
     @ParameterizedTest
     @ValueSource(ints = {-1, 0, 1})
