@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class PowerBallTest
 {
     @RepeatedTest(10)
-    public void rangeTest()
+    public void testRange()
     {
         PowerBall powerBall = new PowerBall();
         int[] numbers = powerBall.getNumbers();
